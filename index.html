@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Youtube Iframe API - Looping/Tempo</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.css'>
+<link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <div class="container-fluid">
+  <div class="row col-md-6 col-md-offset-3">
+    <div class="row video-wrapper">
+      <div id="player"></div>        
+    </div>
+    <div class="row">
+      <div id="youtube-range-slider"></div>
+    </div>
+    <div class="row">
+      <p id="range-times">Start: 1:05 End: 1:09</p>
+    </div>
+    <div class="row">
+      <div id="playback-rate-slider"></div>
+    </div>
+    <div class="row">
+      <p id="current-playback-rate">Playback Rate: 1 (Normal)</p>
+    </div>
+    <div class="row">
+      <button id="play-button" class="btn btn-success">Start</button>
+      <button id="stop-button" class="btn btn-danger">Stop</button>
+      <button id="reset-loop-button" class="btn btn-info">Reset Loop</button>
+    </div>
+  </div>
+
+</div>
+<br>
+<div class="row text-center">
+  <small>*** If viewing this on a mobile device, only normal playback speed is possible as the Youtube IFrame API doesn't currently support other playback rates on mobile devices. ***</small>
+</row>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
